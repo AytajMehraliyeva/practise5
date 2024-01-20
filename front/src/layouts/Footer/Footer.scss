@@ -1,0 +1,42 @@
+footer {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+    height: 290px;
+    padding-top: 90px;
+    text-align: center;
+    .icons {
+        width: 80%;
+        margin: auto;
+        padding: 10px;
+        gap: 20px;
+        display: flex;
+        align-items: center;
+        font-size: 40px;
+        justify-content: center;
+        .fb,
+        .tw,
+        .yt,
+        .insta {
+            border-radius: 100%;
+            border: 1px solid purple;
+            width: 40px;
+            height: 40px;
+            padding: 10px;
+            color: white;
+            background-color: purple;
+            transition: 0.3s;
+        }
+        .icon:hover {
+            background-color: black;
+            margin-bottom: 30px;
+        }
+    }
+    p {
+        margin-top: 80px;
+        align-items: baseline;
+        .heart {
+            font-size: 13px;
+            color: red;
+        }
+    }
+}
