@@ -58,7 +58,7 @@ function App() {
   };
 
   useEffect(() => {
-    axios.get("http://localhost:3060/item").then(res => {
+    axios.get("https://practise5-back-end.onrender.com/item").then(res => {
       setItem(res.data);
       console.log(res.data);
     }).catch(err => {
